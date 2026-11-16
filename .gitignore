@@ -1,0 +1,21 @@
+# Игнорируем все служебные папки UE
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# Игнорируем настройки Visual Studio
+.vs/
+*.sln*
+*.suo
+*.VC.db
+
+# Игнорируем логи и кэш
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Игнорируем бинарники плагинов
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
